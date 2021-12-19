@@ -1,0 +1,342 @@
+/*
+* Site
+*/
+body {
+color: #FFDD22;
+font-size: 18px;
+background-color: #FF5555;
+font-family: 'Lato', 'Georgia','serif';
+}
+
+
+a:link { color:#FFDD00; text-decoration:none; }
+a:visited { color:#FFBB00; text-decoration:none; }
+
+ol, ul {line-height:200%; }
+
+header {
+display:block;
+margin-bottom: 1px;
+}
+
+nav {
+display: block;
+margin-right: 10px;
+font-family: 'Rubik','verdana','sans-serif';
+font-weight: bold;
+float:left;
+  }
+
+section { display: block ;
+	width:70%;
+	float:right;
+              }
+ 
+ul nav  {
+	color:#FFDD22;
+	line-height: 230%;
+	margin-top: 40px;
+	list-style-type: circle ;
+
+}
+
+
+
+
+footer { clear: both; }
+
+.ender {
+font-size: 14px;
+font-style: italic;
+line-height: 140%;
+float:right;
+text-align: center;
+
+}
+
+img.imgLogo {
+padding-bottom: 5px;
+border-bottom: 3px solid;
+margin-bottom: 6px;
+}
+
+nav a:link { color:#FFFF00; }
+nav a:visited { color:#EEEE00; }
+nav .menu { margin: 1px auto; }
+nav .botao {
+width: 120px;
+display: inline-block;
+margin: 0px 4px 0px 4px;
+padding: 0px 4px 0px 4px;
+}
+/*
+* Lista e tabela de preços
+*/
+div.apres {
+text-align: center;
+font-size: 18px;
+}
+.lista .titulo{
+text-align: center;
+
+}
+
+.lista .preco{
+	color: #EE0000;
+	font-weight: bold;
+	text-align: vertical, middle;
+}
+
+.listaComMel{
+
+  width: 340px;
+  color:#AA0000;
+  background-color:  #EECC88;
+  border-spacing: 10px 10px 10px 50px; 
+  border:2px;
+  border-style: solid;
+  border-color: #000055;
+  margin-top:0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: upper-roman;
+  text-align: left;
+}
+.listaComMel .a a {
+	color: #AA0000
+}
+.lista .ul{
+	color: #AA0000;
+	list-style-type: square;
+}
+
+.janInfo{
+	text-align: center;
+	width:300px;
+	color: #AA0000;
+	background-color: #EECC88;
+	padding-bottom: 20px;
+	border-bottom: 2px solid;
+	border: 2px solid;
+	border-color: #000055;
+		
+}
+		
+.janInfoImg{
+	text-align: center;
+	margin-bottom: 30px;
+	border: 2px solid;
+	border-color:  #000055;
+	background-color: #ffffff;
+}
+		
+.janInfoDetalhe{
+	text-align: left;
+	margin-bottom: 20px;
+}
+	
+.tabDabel {
+color: #000066;
+margin-top: 6px;
+margin-bottom: 10px;
+margin-right: auto;
+margin-left: auto;
+border: 3px solid  #226699;
+border-collapse: collapse;
+background-color:#FFCC44;
+font-family: 'Rubik','verdana','sans-serif';
+}
+.tabDabel td, .tabDabel th {
+border: 3px solid #226699;
+padding: 6px 12px 6px 12px;
+height: 40px;
+}
+
+.tabDabel .linTH {
+color: #FFFFFF;
+text-align: center;
+vertical-align: middle;
+background-color:  #22AA55;
+}
+
+.tabDabel .titulo {
+	color: #FFFF00;
+	background-color:#228855;
+	text-align: center;
+	font-size: 24px;
+	font-weight:bold;	
+}
+.tabDabel .preco{
+	color: #EE0000;
+	font-weight: bold;
+	text-align: vertical, middle;
+}
+.tabDabel .colTH {
+background-color: #2299DD;
+text-align: left;
+color: #FFFFFF;
+
+
+}
+
+.tabDabel .colimg {
+	background-color: #FFFFFF;
+}
+
+.prodtipo a {
+	color: #EE0000;
+}
+.titDes {
+	height: 60px;
+	text-align: center ;
+}
+
+.proDes {
+	height: 40px;
+	color:#EE0000;
+	font-weight: bold;
+}
+.imgDes {
+	height: 100px;
+	border: 2px solid;
+	border-color: #226699;
+	padding: 4px;
+	background-color: #ffffff;
+}
+.tabDabel img{
+	width:70px;
+	height:70px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+
+/*formulario*/
+
+.divCompras{
+width: 550px;
+color:#2255AA;
+background-color:#EEEEAA;
+padding: 6px 6px 15px 6px;
+font-size: 14px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: auto;
+margin-left: auto;
+border:2px;
+border-style: solid;
+border-color: #77CCDD;
+float:center;
+}
+
+.divCompras .titulo{
+font-size: 18px;
+color:#2255AA;
+text-align: left;
+}
+
+.divCartao {
+	display:block;
+	float: right;
+}
+.listaCompras {
+width: 210px;
+height: 160px;
+float: right;
+margin-top: 2px;
+margin-left: 10px;
+}
+
+.colLabSelProd {
+float: left;
+width: 230px;
+height: 40px;
+
+}
+.colSelProd {
+width: 160px;
+float: right;
+}
+
+.linhaProdSel {
+width: 220px;
+margin-bottom: 6px;
+float: left;
+}
+
+.linhaProdBot {
+margin-left: 4px;
+}
+
+.elemEsq {
+display:block;
+float: left;
+}
+
+.elemDir {
+display:block;
+float: right;
+}
+
+.botoes {
+text-align: right;
+margin: 20px 10px 0px 10px;
+}
+/*inputs*/
+
+.fsEsq {
+float: left;
+display: inline;
+margin: 0px 0px 0px 0px;
+height: 120px;
+}
+
+.fsDir {
+float: right;
+display: inline;
+margin: 0px 0px 0px 0px;
+}
+
+.inpGrande { width: 380px; }
+
+.impMedio { width: 80px; }
+
+.impNCC { width: 130px; }
+
+.impTelef { width: 90px; }
+
+.impEnder { width: 180px; height: 50px; }
+
+.numDD { width:30px; }
+
+.numQD { width:50px; }
+
+.divLinha {width: 500px;
+margin-bottom: 6px;
+}
+
+.colLabCrd{
+width: 260px;
+height: 40px;
+float: left;
+}
+
+.colPri {
+float: left;
+display: block;
+width: 90px;
+
+}
+.colPriCompras {
+float: left;
+display: block;
+width: 86px;
+
+}
+.colPriPag {
+float: left;
+width: 250px;
+display: block;
+}
+
